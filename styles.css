@@ -132,6 +132,10 @@ h3 {
     margin: .25rem 0;
 }
 
+.offerings-grid h3 {
+    color: var(--soft-white);
+}
+
 .gallery-grid {
     display: grid;
     grid-gap: .75rem;
@@ -237,20 +241,18 @@ main {
 /* MEDIA QUERY (large) */
 @media screen and (min-width: 900px) {
 header {
-    padding: 2.75rem 1rem 2.25rem;
+    padding: 2.5rem 1rem 2rem;
 }
 
 header img {
-    width: 175px;
+    width: 160px;
 }
 
 h1 {
-    font-size: 3.75rem;
+    font-size: 3.5rem;
 }
 
 main {
-    max-width: 1120px;
-    margin: 0 auto;
     padding-top: 3rem;
 }
 
@@ -261,16 +263,16 @@ main {
 
 /* MEDIA QUERY (xl) */
 @media screen and (min-width: 1200px) {
-header img {
-    width: 190px;
-}
-
-main {
-    max-width: 1020px;
+    header img {
+    width: 175px;
 }
 
 .gallery-grid {
     grid-template-columns: auto auto auto auto auto;
+}
+
+figure img {
+    height: 160px;
 }
 
 figcaption {
